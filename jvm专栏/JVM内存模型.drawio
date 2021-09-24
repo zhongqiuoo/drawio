@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-24T06:35:43.526Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36" etag="cGOCzSewxFibryclr3ri" version="15.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-24T06:41:56.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36" etag="n0ivg7hTnoPd23nnsUi4" version="15.3.1" type="github">
   <diagram id="Gui1ZnJn1RJ8J5tcJiaI" name="第 1 页">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,6 +17,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vYTzc6pH1IMij8qXJxNM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZUZLeex8X3oBHcQBJ6o9-8" target="vYTzc6pH1IMij8qXJxNM-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vYTzc6pH1IMij8qXJxNM-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZUZLeex8X3oBHcQBJ6o9-8" target="vYTzc6pH1IMij8qXJxNM-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZUZLeex8X3oBHcQBJ6o9-8" value="方法区&lt;br&gt;Test1.class&lt;br&gt;Test2.class" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -77,6 +80,9 @@
         <mxCell id="ZUZLeex8X3oBHcQBJ6o9-24" value="记录指令执行位置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="317.5" y="465" width="40" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="vYTzc6pH1IMij8qXJxNM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vYTzc6pH1IMij8qXJxNM-5" target="vYTzc6pH1IMij8qXJxNM-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vYTzc6pH1IMij8qXJxNM-5" value="堆内存&lt;br&gt;存放对象实例" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
           <mxGeometry x="440" y="303" width="120" height="60" as="geometry" />
         </mxCell>
@@ -100,8 +106,17 @@
         <mxCell id="vYTzc6pH1IMij8qXJxNM-11" value="局部变量表&lt;br&gt;&lt;br&gt;操作数栈&lt;br&gt;&lt;br&gt;动态连接&lt;br&gt;&lt;br&gt;返回信息" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="800" y="372.5" width="70" height="140" as="geometry" />
         </mxCell>
+        <mxCell id="vYTzc6pH1IMij8qXJxNM-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vYTzc6pH1IMij8qXJxNM-15" target="vYTzc6pH1IMij8qXJxNM-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vYTzc6pH1IMij8qXJxNM-15" value="JDK1.7方法区（内存默认256M）&lt;br&gt;&amp;nbsp; &amp;nbsp;JDK1.8 Meta space元数据空间。（可以共享Java虚拟机的内存）" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;gradientColor=#b3b3b3;" vertex="1" parent="1">
-          <mxGeometry x="394" y="160" width="216" height="60" as="geometry" />
+          <mxGeometry x="392" y="80" width="216" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vYTzc6pH1IMij8qXJxNM-18" value="静态变量存放位置&lt;br&gt;JDK1.7存放在堆中，之前的版本存在方法区。" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="392" y="170" width="216" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vYTzc6pH1IMij8qXJxNM-22" value="Meta space中存放的是元信息（class方法，字段等）。" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="654" y="80" width="216" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
