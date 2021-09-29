@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T07:25:22.799Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36" etag="5JWCfVYTqEKzcSDnKTx5" version="15.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-29T07:35:41.535Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36" etag="iD-vKTae7hrJ0m2zN_lG" version="15.3.1" type="github">
   <diagram id="fiViFHrDjd_YTAFAnZx1" name="第 1 页">
-    <mxGraphModel dx="2249" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1941" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,6 +60,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="UVusGNRqB6WY-s-b3lsW-62" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UVusGNRqB6WY-s-b3lsW-21">
+          <mxGeometry x="-0.2044" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UVusGNRqB6WY-s-b3lsW-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UVusGNRqB6WY-s-b3lsW-17" target="UVusGNRqB6WY-s-b3lsW-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -70,9 +75,6 @@
         </mxCell>
         <mxCell id="UVusGNRqB6WY-s-b3lsW-17" value="存活对象是否大于Survivor区内存" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="90" y="-10" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="UVusGNRqB6WY-s-b3lsW-23" value="false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="60" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UVusGNRqB6WY-s-b3lsW-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UVusGNRqB6WY-s-b3lsW-26" target="UVusGNRqB6WY-s-b3lsW-29">
           <mxGeometry relative="1" as="geometry" />
@@ -86,20 +88,26 @@
         <mxCell id="UVusGNRqB6WY-s-b3lsW-28" value="false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="309" y="260" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="UVusGNRqB6WY-s-b3lsW-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UVusGNRqB6WY-s-b3lsW-29" target="UVusGNRqB6WY-s-b3lsW-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UVusGNRqB6WY-s-b3lsW-43" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UVusGNRqB6WY-s-b3lsW-42">
-          <mxGeometry x="-0.7547" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="UVusGNRqB6WY-s-b3lsW-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UVusGNRqB6WY-s-b3lsW-29" target="UVusGNRqB6WY-s-b3lsW-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UVusGNRqB6WY-s-b3lsW-45" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UVusGNRqB6WY-s-b3lsW-44">
           <mxGeometry x="-0.4805" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UVusGNRqB6WY-s-b3lsW-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UVusGNRqB6WY-s-b3lsW-29" target="UVusGNRqB6WY-s-b3lsW-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="583" y="510" />
+              <mxPoint x="583" y="164" />
+              <mxPoint x="349" y="164" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UVusGNRqB6WY-s-b3lsW-65" value="进行Minor GC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UVusGNRqB6WY-s-b3lsW-64">
+          <mxGeometry x="-0.3811" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UVusGNRqB6WY-s-b3lsW-29" value="老年代剩余内存是否大于之前每次Minor GC后进入老年代的平均大小" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
